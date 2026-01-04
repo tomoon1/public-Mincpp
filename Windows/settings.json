@@ -1,0 +1,288 @@
+{
+    /*********** Smart input auto generate ***********/
+    "smartInputPro.config": {
+        "enableAutoSwitch": true,
+        "enableStatusBar": true,
+        "cursorColorChinese": "#c31818",
+        "cursorColorEnglish": "#51d237",
+        "enableCursorDecorations": true,
+        "enableCursorColor": true,
+        "inputMethodForWindows": "微软拼音",
+        "inputMethodForLinux": "",
+        "inputMethodSwitchShortcutForWindows": "Shift",
+        "englishInputMethodForMac": "",
+        "motherTongueInputMethodForMac": "",
+        "inputMethodSwitchShortcutForMac": "Shift",
+        "defaultContextLanguage": [
+            {
+                "name": "代码文件默认规则",
+                "fileTypes": [
+                    ".dart",
+                    ".ts",
+                    ".js",
+                    ".tsx",
+                    ".jsx",
+                    ".vue",
+                    ".ets",
+                    ".java",
+                    ".kt",
+                    ".groovy",
+                    ".php",
+                    ".cpp",
+                    ".c",
+                    ".cc",
+                    ".h",
+                    ".hpp",
+                    ".hxx",
+                    ".cxx",
+                    ".m",
+                    ".mm",
+                    ".swift",
+                    ".rb",
+                    ".go",
+                    ".cs",
+                    ".fs",
+                    ".rs",
+                    ".py",
+                    ".sql",
+                    ".sh",
+                    ".bash",
+                    ".zsh",
+                    ".fish",
+                    ".csh",
+                    ".tcsh",
+                    ".zshrc",
+                    ".ipynb",
+                    ".v",
+                    ".vh",
+                    ".html",
+                    ".htm",
+                    ".xhtml",
+                    ".xml",
+                    ".svg"
+                ],
+                "stringLanguage": "ENGLISH",
+                "singleLineCommentLanguage": "MOTHER_TONGUE",
+                "multiLineCommentLanguage": "MOTHER_TONGUE",
+                "docCommentLanguage": "MOTHER_TONGUE",
+                "defaultLanguage": "ENGLISH"
+            },
+            {
+                "name": "文档文件默认规则",
+                "fileTypes": [
+                    ".md",
+                    ".txt"
+                ],
+                "stringLanguage": "MOTHER_TONGUE",
+                "singleLineCommentLanguage": "MOTHER_TONGUE",
+                "multiLineCommentLanguage": "MOTHER_TONGUE",
+                "docCommentLanguage": "MOTHER_TONGUE",
+                "defaultLanguage": "MOTHER_TONGUE"
+            }
+        ],
+        "chineseSymbolReplaceRules": [
+            {
+                "name": "常用中文替换",
+                "enabled": true,
+                "fileTypes": [
+                    ".md"
+                ],
+                "symbols": [
+                    "《",
+                    "》",
+                    "「",
+                    "」",
+                    "『",
+                    "』",
+                    "【",
+                    "】",
+                    "（",
+                    "）",
+                    "“",
+                    "”",
+                    "‘",
+                    "’",
+                    "？",
+                    "：",
+                    "；",
+                    "、",
+                    "！",
+                    "—",
+                    "·",
+                    "￥"
+                ]
+            }
+        ],
+        "regexMatchRules": [
+            {
+                "name": "中文之间",
+                "enabled": true,
+                "leftPattern": ".*[\\u4e00-\\u9fa5\\u3000-\\u303F\\uff00-\\uffef]$",
+                "rightPattern": "^[\\u4e00-\\u9fa5\\u3000-\\u303F\\uff00-\\uffef].*",
+                "language": "MOTHER_TONGUE",
+                "matchCondition": "ANY",
+                "fileTypes": [
+                    ".dart",
+                    ".md",
+                    ".txt",
+                    ".ts",
+                    ".js",
+                    ".tsx",
+                    ".jsx",
+                    ".vue",
+                    ".ets",
+                    ".java",
+                    ".kt",
+                    ".groovy",
+                    ".php",
+                    ".cpp",
+                    ".c",
+                    ".cc",
+                    ".h",
+                    ".hpp",
+                    ".hxx",
+                    ".cxx",
+                    ".m",
+                    ".mm",
+                    ".swift",
+                    ".rb",
+                    ".go",
+                    ".cs",
+                    ".fs",
+                    ".rs",
+                    ".py",
+                    ".sql",
+                    ".sh",
+                    ".bash",
+                    ".zsh",
+                    ".fish",
+                    ".csh",
+                    ".tcsh",
+                    ".zshrc",
+                    ".ipynb",
+                    ".v",
+                    ".vh",
+                    ".html",
+                    ".htm",
+                    ".xhtml",
+                    ".xml",
+                    ".svg"
+                ]
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // {
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#c31818",
+        // "editor.background":"#1f1f1f"
+    },
+    "remote.autoForwardPortsSource": "hybrid",
+    "yaml.schemas": {
+        "file:///c%3A/Users/tomoon/.vscode/extensions/continue.continue-1.2.10-win32-x64/config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ]
+    },
+    "editor.mouseWheelZoom": true,
+    "editor.fontSize": 15,
+    "window.zoomLevel": 3.0,
+    "code-runner.runInTerminal": false,
+    "files.autoGuessEncoding": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.wordWrap": "on",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.suggestSelection": "recentlyUsed",
+    "window.dialogStyle": "custom",
+    "debug.showBreakpointsInOverviewRuler": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true,
+    "files.autoSave": "afterDelay",
+    "C_Cpp.intelliSenseEngine": "default",
+    "clangd.detectExtensionConflicts": false,
+    "codesnap.shutterAction": "copy",
+    "codesnap.showWindowTitle": true,
+    "workbench.editor.empty.hint": "text",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "cmake.options.statusBarVisibility": "visible",
+    // background
+    "background.enabled": true,
+    "background.editor": {
+        "useFront": false,
+        "style": {
+            "content": "''",
+            "pointer-events": "none",
+            "position": "absolute",
+            "z-index": "99999",
+            "width": "100%",
+            "height": "100%",
+            "background-position": "center",
+            "background-repeat": "no-repeat",
+            "background-size": "cover",
+            "opacity": 1.0,
+            "random": false,
+        },
+        "images": [
+            "file:///home/tomoon/.config/Code/background/10.png"
+            // "file:///C:/Users/tomoon/Pictures/background/9.1gg.png",
+            // "file:///C:/Users/tomoon/Pictures/background/VSCode/10.png"
+            // "file:///C:/Users/tomoon/AppData/Roaming/Code/User/profiles/-70bc5dbb/9.3.png",
+            // "file:///mnt/c/Users/tomoon/Pictures/background/9.1gg.png"
+        ],
+    },
+    // Shell 切换
+    "terminal.integrated.defaultProfile.windows": "powershell",
+    // "terminal.integrated.defaultProfile.windows": "ubuntu22045 (WSL)",
+    // "terminal.integrated.defaultProfile.linux": "zsh",
+
+    "projectManager.git.baseFolders": [
+        "Code"
+    ],
+    "window.newWindowProfile": "ubuntu-gcc",
+    "oaicopilot.baseUrl": "https://api.deepseek.com",
+    "oaicopilot.models": [{
+        "id": "deepseek-chat",
+        "owned_by": "deepseek",
+        "context_length": 65536,
+        "max_tokens": 4096
+    }
+    ],
+    "terminal.integrated.cursorStyle": "line",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+    "hediet.vscode-drawio.resizeImages": null,
+    "hediet.vscode-drawio.appearance": "dark",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine",
+    "editor.largeFileOptimizations": false
+}
